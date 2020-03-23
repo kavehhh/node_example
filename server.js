@@ -15,7 +15,7 @@ app.get('/', (req, res) => res.send('Hello Server!'))
 
 app.get('/test', function (req, res) {
   console.log(req.headers);
-  res.send('gang gang gang');
+  res.send('sending response..');
 })
 
 app.listen(port, () => console.log(`Server app listening on port ${port}!`))
